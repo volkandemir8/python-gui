@@ -8,8 +8,8 @@ pencere = tk.Tk()
 pencere.geometry("600x450")
 pencere.title("Odev")
 pencere.resizable(width=False ,height=False)
-connection = mysql.connector.connect(host='localhost', user='root',
-                                     password='', port='3306', database='odev1')
+connection = mysql.connector.connect(host='', user='',
+                                     password='', port='', database='')
 c = connection.cursor()
 
 def Kapat():
